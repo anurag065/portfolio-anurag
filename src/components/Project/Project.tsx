@@ -29,15 +29,15 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
               <div className="project-links">
-                <a
+                {/* <a
                   href="https://github.com/Ritik-in-Tech/targafy-backend"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
-                </a>
+                </a> */}
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.terabiz.targafy"
+                  href="https://app.ugo-ness.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -46,7 +46,9 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>”Ugoki Floow” - Motion Tracking Web Application</h3>
+              <h3>
+                "Ugoki Floow" - Motion Tracking Web Application (Intern Project)
+              </h3>
               <p>
                 Developed FullStack Admin & Client management system using React
                 & TypeScript handling 100+ exercise videos. Implemented secure
@@ -101,7 +103,7 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Targafy App</h3>
+              <h3>Targafy App (Intern Project)</h3>
               <p>
                 {" "}
                 Built and launched backend APIs for a Flutter app, adding mobile
