@@ -65,6 +65,8 @@ export function Project() {
               </ul>{" "}
             </footer>
           </div>
+
+          
         </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
