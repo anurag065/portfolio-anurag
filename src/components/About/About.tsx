@@ -22,14 +22,15 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I am Ritik Tiwari, a Computer Science and Engineering student at IIT
-            Jodhpur, with a passion for leveraging technology to solve
+            I am Ritik Tiwari, a Computer Science and Engineering graduate from
+            IIT Jodhpur, with a passion for leveraging technology to solve
             real-world problems. My academic foundation, combined with a CGPA of
             7.88, reflects my dedication to mastering data structures,
-            algorithms, machine learning, and software engineering. I’m
+            algorithms, machine learning, and software engineering. I'm
             proficient in C, C++, Python, JavaScript, and TypeScript, and have
-            experience working with frameworks like Flutter, Django, React, and
-            Node.js, as well as databases like SQL and MongoDB.
+            experience working with frameworks like Flutter, Django, React,
+            Node.js, and Next.js, as well as databases like MySQL, PostgreSQL,
+            and MongoDB.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -109,7 +110,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={ritikImage} alt="Vinayak Singh" />
+          <img src={ritikImage} alt="Ritik" />
         </ScrollAnimation>
       </div>
     </Container>
