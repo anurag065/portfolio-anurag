@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import ritikImage from "../../assets/ritik.png";
+import ritikImage from "../../assets/anurag.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -22,15 +22,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I am Ritik Tiwari, a Computer Science and Engineering graduate from
-            IIT Jodhpur, with a passion for leveraging technology to solve
-            real-world problems. My academic foundation, combined with a CGPA of
-            7.88, reflects my dedication to mastering data structures,
-            algorithms, machine learning, and software engineering. I'm
-            proficient in C, C++, Python, JavaScript, and TypeScript, and have
-            experience working with frameworks like Flutter, Django, React,
-            Node.js, and Next.js, as well as databases like MySQL, PostgreSQL,
-            and MongoDB.
+            I am Anurag Verma, an Engineering Science graduate (Computer Science major) from IIT Jodhpur, currently working as a Full-Stack Consultant at Micata Inc., a Tokyo-based Startup. I specialize in building scalable web applications and cloud solutions, combining strong technical expertise with leadership and management experience.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -39,12 +31,9 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            With experience in cloud platforms like AWS, containerization with
-            Docker, and DevOps practices such as CI/CD and Terraform, I’m
-            continuously expanding my technical knowledge. I’m also exploring
-            machine learning and cybersecurity, eager to tackle new challenges
-            and collaborate on innovative projects. Let’s connect and explore
-            exciting opportunities in the field of software development.
+          Skilled in cloud platforms, DevOps, and full-stack development, I’m also exploring machine learning and cybersecurity. I enjoy tackling new challenges and building solutions that create real impact.
+
+
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>

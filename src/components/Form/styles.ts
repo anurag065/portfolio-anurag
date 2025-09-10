@@ -1,7 +1,14 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 
-export const Container = styled.div`
+interface ContainerProps {
+  children?: ReactNode;
+  className?: string;
+  id?: string;
+}
+
+export const Container = styled.div<ContainerProps>`
   margin-top: 3rem;
   display: grid;
   place-items: center;

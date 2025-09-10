@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
+interface ContainerProps {
+  id?: string;
+  className?: string;
+  children?: React.ReactNode;
+}
 
-export const Container = styled.section`
+
+export const Container = styled.section<ContainerProps>`
   margin-top: 10rem;
 
   header{
